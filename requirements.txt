@@ -1,2 +1,2 @@
-django>=1.9.1
-# Additional requirements go here
+django>=1.8
+djangocms_admin_style>=0.2.5
