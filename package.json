@@ -1,0 +1,27 @@
+{
+  "name": "djangocms-admindocs-style",
+  "version": "1.0.0",
+  "description": "DjangoCMS Admindocs styles",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "python runtests.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/goldhand/djangocms-admindocs-style.git"
+  },
+  "keywords": [
+    "djangocms",
+    "admindocs"
+  ],
+  "author": "Will Farley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldhand/djangocms-admindocs-style/issues"
+  },
+  "homepage": "https://github.com/goldhand/djangocms-admindocs-style#readme"
+}
