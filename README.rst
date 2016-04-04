@@ -22,14 +22,17 @@ Install djangocms-admindocs-style::
 
     pip install djangocms-admindocs-style
 
-Then use it in a project::
+Then use it in a project by adding it to your installed apps before 'django.contrib.admin'::
 
-    import djangocms_admindocs_style
+    INSTALLED_APPS = [
+        ...
+        'djangocms_admin_style',
+        'djangocms_admindocs_style',
+        'django.contrib.admin',
+        'django.contrib.admindocs',
+        ...
+    ]
 
-Features
---------
-
-* TODO
 
 Running Tests
 --------------
@@ -42,13 +45,9 @@ Does the code actually work?
     (myenv) $ pip install -r requirements-test.txt
     (myenv) $ python runtests.py
 
-Credits
----------
+Compiling CSS
+-------------
 
-Tools used in rendering this package:
+Make sure `sassc` is installed and run
 
-*  Cookiecutter_
-*  `cookiecutter-pypackage`_
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
+    npm run sass
