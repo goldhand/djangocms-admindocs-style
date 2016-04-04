@@ -8,7 +8,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "python runtests.py"
+    "test": "python runtests.py",
+    "sass": "sassc -t compressed djangocms_admindocs_style/sass/djangocms-admindocs.scss djangocms_admindocs_style/static/djangocms_admindocs_style/css/djangocms-admindocs.css"
   },
   "repository": {
     "type": "git",
