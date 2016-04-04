@@ -1,6 +1,6 @@
 {
   "name": "djangocms-admindocs-style",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DjangoCMS Admindocs styles",
   "main": "index.js",
   "directories": {
