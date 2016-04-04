@@ -33,7 +33,6 @@ Then use it in a project by adding it to your installed apps before 'django.cont
         ...
     ]
 
-
 Running Tests
 --------------
 
@@ -48,6 +47,6 @@ Does the code actually work?
 Compiling CSS
 -------------
 
-Make sure `sassc` is installed and run
+Make sure `sassc` is installed and run::
 
     npm run sass
